@@ -5,7 +5,7 @@ Repository for the "'Humor, Art, or Misinformation?': A Multimodal Dataset for I
 ## Abstract
 Recent advances in multimodal AI have enabled progress in detecting synthetic and out-of-context content. However, existing work largely overlooks the intent behind AI-generated images. To fill this gap, we introduce S-HARM, a multimodal dataset for intent-aware classification, comprising 9,576 'in the wild' image–text pairs from Twitter/X and Reddit, labeled as Humor/Satire, Art, or Misinformation. Additionally, we explore three prompting strategies (image-guided, description-guided, and multimodally-guided) to construct a large-scale synthetic training dataset with Stable Diffusion. We conduct an extensive comparative study including modality fusion, contrastive learning, reconstruction networks, attention mechanisms, and large vision-language models. Our results show that models trained on image- and multimodally-guided data generalize better to 'in the wild' content, due to preserved visual context. However, overall performance remains limited, underscoring the complexity of inferring intent and the need for specialized architectures.
 
-![Screenshot](banner.pdf)
+![Screenshot](banner.png)
 
 ## Preparation
 - Clone this repo:
