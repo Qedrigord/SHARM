@@ -36,7 +36,9 @@ This work is partially funded by the Horizon Europe projects "DisAI - Improving 
 "vera.ai - VERification Assisted by Artificial Intelligence" under grant agreement no. 101070093, 
 and "AI-CODE - AI services for COntinuous trust in emerging Digital Environments" under grant agreement no. 101135437.
 The authors also acknowledge the support and computational resources provided by the IT Center of the Aristotle University of Thessaloniki (AUTh) throughout the progress of this research work.
+
 ## Licence
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/Qedrigord/SHARM/blob/main/LICENSE) file for more details.
 
 ## Contact
 Stefanos-Iordanis Papadopoulos (stefpapad@iti.gr)
