@@ -1,6 +1,5 @@
 # S-HARM
-
-Repository for the "'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection"
+Official repository for the "'Humor, Art, or Misinformation?': A Multimodal Dataset for Intent-Aware Synthetic Image Detection" paper which is accepted at the Diffusion of Harmful Content on Online Web (DHOW) Workshop at the 33rd ACM International Conference on Multimedia (ACM MM), 2025.
 
 ## Abstract
 Recent advances in multimodal AI have enabled progress in detecting synthetic and out-of-context content. However, existing work largely overlooks the intent behind AI-generated images. To fill this gap, we introduce S-HARM, a multimodal dataset for intent-aware classification, comprising 9,576 'in the wild' image–text pairs from Twitter/X and Reddit, labeled as Humor/Satire, Art, or Misinformation. Additionally, we explore three prompting strategies (image-guided, description-guided, and multimodally-guided) to construct a large-scale synthetic training dataset with Stable Diffusion. We conduct an extensive comparative study including modality fusion, contrastive learning, reconstruction networks, attention mechanisms, and large vision-language models. Our results show that models trained on image- and multimodally-guided data generalize better to 'in the wild' content, due to preserved visual context. However, overall performance remains limited, underscoring the complexity of inferring intent and the need for specialized architectures.
@@ -24,16 +23,19 @@ cd SHARM
 
 - generation: Contains the code that was used for the generation of the 3 different train sets
 
-- train data: Image and text feature representations for the training sets
+- train data features: Image and text feature representations for the training sets
 
-- test data: Feature representations for test samples
+- test data features: Feature representations for test samples
+
+- test data links: Links to the original posts used for the test set
 
 - experiments: All training and evaluation code for the conducted experiments
 
 ## Acknowledgements
-This work is partially funded by the ``DisAI'' project under Grant aggrement 101079164. 
-The authors would also like to acknowledge the support and computational resources provided by the IT Center of the Aristotle University of Thessaloniki (AUTh) throughout the progress of this research work.
-
+This work is partially funded by the Horizon Europe projects "DisAI - Improving scientific excellence and creativity in combating disinformation with artificial intelligence and language technologies" under grant agreement no. 101079164, 
+"vera.ai - VERification Assisted by Artificial Intelligence" under grant agreement no. 101070093, 
+and "AI-CODE - AI services for COntinuous trust in emerging Digital Environments" under grant agreement no. 101135437.
+The authors also acknowledge the support and computational resources provided by the IT Center of the Aristotle University of Thessaloniki (AUTh) throughout the progress of this research work.
 ## Licence
 
 ## Contact
