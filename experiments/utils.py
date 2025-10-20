@@ -32,6 +32,8 @@ def load_data(folder):
             "val": (x_val, x_base_val)
         }
     return data
+    # Train and validation data were split using:
+    # train_data, val_data = train_test_split(data, test_size=0.2, random_state=42, shuffle=True)
 
 def load_test_data():
     def load(name):
