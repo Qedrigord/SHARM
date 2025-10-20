@@ -31,6 +31,9 @@ cd SHARM
 
 - experiments: All training and evaluation code for the conducted experiments
 
+## Data
+The generated datasets and the train/validation/test URLs are publicly available here: https://zenodo.org/records/16988096
+
 ## Acknowledgements
 This work is partially funded by the Horizon Europe projects "DisAI - Improving scientific excellence and creativity in combating disinformation with artificial intelligence and language technologies" under grant agreement no. 101079164, 
 "vera.ai - VERification Assisted by Artificial Intelligence" under grant agreement no. 101070093, 
